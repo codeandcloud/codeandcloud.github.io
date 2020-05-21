@@ -30,13 +30,15 @@ github:
 twitter:
   username: codeandcloud            # change to your twitter username
 
+stackoverflow:
+  username: 17447/naveen
 social:
   name: codeandcloud.net                 # it will shows as the copyright owner in Footer
   email: naveen.chakiath@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/codeandcloud
     - https://github.com/codeandcloud
+    - https://twitter.com/codeandcloud
     - https://www.facebook.com/codeandcloud
     - https://www.linkedin.com/company/codeandcloud
 
@@ -52,7 +54,7 @@ timezone: Asia/Kolkata
 
 google_analytics:
   # Fill with your Google Analytics ID
-  id: ''
+  id: 'UA-167282532-1'
   # The Google Analytics pageviews switch.
 
   pv:
