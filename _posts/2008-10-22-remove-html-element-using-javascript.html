@@ -1,0 +1,11 @@
+---
+layout: post
+title: Remove a HTML Element using Javascript
+date: '2008-10-22T11:36:00.006+05:30'
+author: Naveen
+tags:
+- remove div input node javascript jquery
+modified_time: '2009-10-05T17:03:19.667+05:30'
+---
+
+Suppose the ID of the element is "objID"<br /><br />The JavaScript method.(We are writing a custom function)<br /><br /><pre name="code" class="jscript"><br /><br />function removeElement(objID) {<br />    var node = document.getElementById(objID);<br />    node.parentNode.removeChild(node);<br />}<br /><br /></pre><br /><br />The JQuery method.<br /><br /><pre name="code" class="jscript"><br /><br />$("#objID").remove();<br /><br /></pre><br /><br />Its all about <span style="font-weight:bold;">Keeping it Simple</span>.<br />What do you say? :)

@@ -1,0 +1,10 @@
+---
+layout: post
+title: HTML Encode Decode in Javascript/jQuery
+date: '2010-11-15T11:36:00.000+05:30'
+author: Naveen
+tags: 
+modified_time: '2010-11-15T11:36:04.261+05:30'
+---
+
+Last day, I had a resolute and unyielding need to HTML Decode a string.<br />I saw many solutions but was not satisfied.<br />Then I found the <a href="http://stackoverflow.com/questions/1219860/javascript-jquery-html-encoding">StackOverFlow reference</a> which is the most optimal solution I have seen till date. Just pasting it here for easy reference. <br /><br /><pre class="brush:html"><br />function htmlEncode(value){ <br />  return $('&lt;div/&gt;').text(value).html(); <br />} <br /><br />function htmlDecode(value){ <br />  return $('&lt;div/&gt;').html(value).text(); <br />}<br /><br /></pre><br />Did I say jQuery? I sure did say optimal :P<br />Happy Coding!<br /><br />Dependency: jQuery

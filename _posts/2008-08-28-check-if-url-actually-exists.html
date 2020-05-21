@@ -1,0 +1,15 @@
+---
+layout: post
+title: Check if a URL actually exists
+date: '2008-08-28T15:02:00.007+05:30'
+author: Naveen
+tags:
+- URL Exist
+- ASPX
+- Check for 404
+- URL Check
+- URL Checker
+modified_time: '2009-10-05T17:07:19.121+05:30'
+---
+
+We have seen many validations for URLs.<br />But what to do if the requirement is like to check whether a URL is in the NET.<br />In other words, how can one knows the URL given has not returned a 404 error?<br /><br />Here's the code<br /><br /><pre name="code" class="csharp"><br /><br />/// &lt;summary&gt;<br />/// Checks the status of the specified URL.<br />/// &lt;/summary&gt;<br />/// &lt;param name=&quot;strURL&quot;&gt;The URL that needs to be checked&lt;/param&gt;<br />/// &lt;returns&gt;True if the URL exists&lt;/returns&gt;<br /><br />public bool IsURLValid(string strURL)<br />{<br />    string strResponse = &quot;&quot;;<br />    try<br />    {<br />        string pattern = @&quot;((http|ftp|https):\/\/w{3}[\d]*.|(http|ftp|https):\/\/|w{3}[\d]*.)([\w\d\._\-#\(\)\[\]\\,;:]+@[\w\d\._\-#\(\)\[\]\\,;:])?([a-z0-9]+.)*[a-z\-0-9]+.([a-z]{2,3})?[a-z]{2,6}(:[0-9]+)?(\/[\/a-z0-9\._\-,]+)*[a-z0-9\-_\.\s\%]+(\?[a-z0-9=%&amp;\.\-,#]+)?&quot;;<br />//validatng url in case if it hasn't been validated earlier<br />        if(Regex.IsMatch(strURL,pattern))<br />        {<br />            WebRequest request = HttpWebRequest.Create(strURL);<br />            request.Timeout = 5000;<br />            strResponse = ((HttpWebResponse)request.GetResponse()).StatusCode.ToString();<br />        }<br />    }<br />    catch(Exception exp)<br />    {<br />        strResponse = &quot;&quot;;<br />    }<br />    return (strResponse==&quot;OK&quot;)? true: false;<br />}<br /><br /></pre><br /><br />Does the work, but not very classy.<br />Any better ideas?

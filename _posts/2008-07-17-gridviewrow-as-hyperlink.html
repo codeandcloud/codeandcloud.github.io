@@ -1,0 +1,19 @@
+---
+layout: post
+title: GridViewRow as Hyperlink
+date: '2008-07-17T15:56:00.006+05:30'
+author: Naveen
+tags:
+- ASP.NET
+- Click Grid
+- Click Row
+- C#
+- Grid Row HyperLink
+- ASPX
+- Click GridView
+- GridViewRow HyperLink
+- Clickable GridViewRow
+modified_time: '2009-10-05T17:13:48.264+05:30'
+---
+
+This is a simple technique used in the <span style="font-weight:bold;">RowDataBound</span> event of a <span style="font-weight:bold;">GridView</span> so that its <span style="font-weight:bold;">Entire Row acts as a HyperLink</span>.<br />For Visual effects styles are applied at <span style="font-weight:bold;">mouseover and mouseout</span>.<br />The cursor is also given a hand like appearance to show the row is a hyperlink<br /><br /><pre name="code" class="csharp"><br />protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)<br />{<br />    if (e.Row.RowType == DataControlRowType.DataRow)<br />    {<br />        e.Row.Attributes["onmouseover"] = "this.style.color='DodgerBlue';this.style.cursor='hand';";<br />        e.Row.Attributes["onmouseout"] = "this.style.color='Black';";<br />        e.Row.Attributes["onclick"] = "window.navigate('NavigatedPage.aspx?id=" + e.Row.RowIndex + "')";<br />        // can send anything as querystring<br />    }<br />}<br /></pre>

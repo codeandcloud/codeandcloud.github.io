@@ -1,0 +1,10 @@
+---
+layout: post
+title: Different ways to create a DataTable and set Schema
+date: '2010-11-10T15:32:00.003+05:30'
+author: Naveen
+tags: 
+modified_time: '2010-11-10T15:35:44.295+05:30'
+---
+
+Was hanging out StackOverflow and I saw <a href="http://stackoverflow.com/questions/441023/fastest-way-to-convert-datatable-to-generic-list#441059">Marc Gravell initializing the DataTable</a> in a simpler and cleaner way. Here goes <br /><br /><pre class="brush:c-sharp">DataTable dataTable = new DataTable<br />{<br />    Columns = {<br />        {"ID", typeof(int)},<br />        {"Name", typeof(string)},<br />        "Location"<br />    },<br />    TableName="NaveenTest"<br />};<br />dataTable.Rows.Add(1, "Naveen", "Coder");<br /></pre><br /><blockquote>Please note that if you don't specify the type it will automatically be converted to string. See how "Location" is initialised<br /></blockquote>And my old method<br /><br /><pre class="brush:c-sharp">DataTable dtOld = new DataTable("NaveenTest");<br />dtOld.Columns.Add("MyID", typeof(int));<br />dtOld.Columns.Add("Name");<br />dtOld.Columns.Add("Location");<br />DataRow drOld = new DataRow();<br />drOld[0] = 1;<br />drOld[1] = "Naveen";<br />drOld[2] = "Coder";<br />dtOld.Rows.Add(drOld);<br /></pre><br />Aaarghhh...<br /><br />A lot cleaner!<br />What do you say?

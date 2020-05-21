@@ -1,0 +1,12 @@
+---
+layout: post
+title: Get Registry key value for 32 and 64 bit machines
+date: '2013-11-25T19:06:00.001+05:30'
+author: Naveen
+tags:
+- C#
+- registry key
+modified_time: '2013-11-25T19:09:58.559+05:30'
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">Here is the snippet that pulls a <b>LOCALMACHINE\SOFTWARE</b><pre class="brush:csharp"><br />public static string GetRegistryKey(string keyName)<br />{<br />    string currentKey = String.Empty;<br />    using (RegistryKey key32 = Registry.LocalMachine.OpenSubKey("SOFTWARE\\JobTracker"))<br />    {<br />        if (key32 != null)<br />        {<br />            currentKey = key32.GetValue(keyName).ToString();<br />        }<br />        else<br />        {<br />            using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64))<br />            using (var key64 = hklm.OpenSubKey(@"SOFTWARE\JobTracker"))<br />           {<br />         currentKey = key64.GetValue(keyName).ToString();<br />            }<br />        }<br />    }            <br />    return currentKey;<br />}<br /></pre></div>

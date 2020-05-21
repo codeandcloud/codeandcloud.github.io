@@ -1,0 +1,10 @@
+---
+layout: post
+title: Prevent site from getting loaded on iframe
+date: '2010-11-16T10:16:00.004+05:30'
+author: Naveen
+tags: 
+modified_time: '2010-11-16T11:14:10.561+05:30'
+---
+
+What if somebody loads your obfuscated fancy javascript or AJAX methods to drive traffic to their site utilising your bandwidth? Here is a simple solution in javascript.<br /><br /><pre class="brush:javascript">&lt;script type=&quot;text/javascript&quot;&gt;<br />//&lt;![CDATA[<br />    if (window.top !== window.self) {<br />        document.write = &quot;&quot;;<br />        window.top.location = window.self.location;<br />        setTimeout(function () {<br />            document.body.innerHTML = &#39;&#39;;<br />        }, 1);<br />        window.self.onload = function (evt) {<br />            document.body.innerHTML = &#39;&#39;;<br />        }; <br />    }<br />//]]&gt;<br />&lt;/script&gt;<br /><br /></pre><br />Paste that javascript snippet inside your head tag of your html.<br />Twitter(Dustin Diaz) uses that at the <a href="http://twitter.com/about/resources/widgets/widget_profile">Twitter Profile Widget Page</a>. :(<br />I found it the hard way (lol). Way to go Dustin!
