@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Using Partials in TypeScript
-date: '2020-05-22T02:07:00.000+05:30'
+date: '2020-05-22T07:07:00.000+05:30'
 author: Naveen
 categories: [typescript, utility-types]
 tags: [typescript, partial, constructor]
-modified_time: '2020-05-22T02:07:00.000+05:30'
+modified_time: '2020-05-22T07:07:00.000+05:30'
 ---
 
 `Partial<T>` is one of the several utility types available globally in TypeScript.
@@ -74,11 +74,11 @@ class FruitEmployee implements Employee {
 Now we can call it like this
 ```typescript
 const naveen = new FruitEmployee();
-const jino = new FruitEmployee({
+const rehna = new FruitEmployee({
     id: 2,
-    name: 'Jino',
-    age: 26,
-    fruit: '🍍'
+    name: 'Rehna',
+    age: 37,
+    fruit: '🥭'
 });
 ```
 `Partial<T>` used like this can save a many lines of code, ensuring type-safety.
