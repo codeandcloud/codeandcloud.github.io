@@ -3,7 +3,7 @@ layout: post
 title: Using Partials in TypeScript
 date: '2020-05-22T07:07:00.000+05:30'
 author: Naveen
-categories: [typescript, utility-types]
+categories: [typescript]
 tags: [typescript, partial, constructor]
 modified_time: '2020-05-22T07:07:00.000+05:30'
 ---
@@ -82,7 +82,7 @@ const rehna = new FruitEmployee({
 });
 ```
 `Partial<T>` used like this can save a many lines of code, ensuring type-safety.
-If [browser doesn't support][https://caniuse.com/#search=Object.assign] `Object.assign`, use
+If [browser doesn't support](https://caniuse.com/#search=Object.assign) `Object.assign`, use
 ```typescript
 import { assign } from 'lodash';
 assign(this, obj);
