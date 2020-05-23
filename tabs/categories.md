@@ -8,7 +8,7 @@ title: Categories
 # MIT License
 ---
 
-{% assign sort_categories = site.categories | sort %}
+{% assign sort_categories = site.categories | sort | where_exp:"item", "item != obslete" %}
 
 {% for category in sort_categories %}
   {% assign category_name = category | first %}
