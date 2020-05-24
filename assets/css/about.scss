@@ -1,0 +1,192 @@
+---
+# Style for About
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2019 Cotes Chung
+# MIT License
+---
+
+
+{% include_relative _addon/main.scss %}
+
+%date-timeline {
+  content: "";
+  width: 4px;
+  left: 75px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  background-color: var(--timeline-color);
+}
+
+%date-font {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.post-content p{
+  text-align: justify;
+}
+.wrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #6465a5;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+.address {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #a9aacd;
+  margin-bottom: 50px;
+}
+
+.inner-address p {
+  font-size: 12px;
+}
+
+.inner-address .fas {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.form-title {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #6465a5;
+  text-align: center;
+}
+
+.input-form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner-msg {
+  width: 100%;
+}
+
+.input>input {
+  border: 1px solid #6465a5;
+  width: 260px;
+  padding: 10px 20px;
+  outline: none;
+}
+
+.msg>textarea {
+  width: 100%;
+  border: 0;
+  padding: 10px 20px;
+  outline: none;
+  height: 150px;
+  border: 1px solid #6465a5;
+}
+.contact-status {
+  text-align: right;
+  width: 100%;
+  font-weight: bold;
+  font-style: italic;
+  color: #6465a5;
+    
+}
+.btn {
+  background: #6465a5;
+  border: 1px solid #6465a5;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.50);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social a {
+  color: #a9aacd;
+}
+.social a, .social a:hover {
+  border-bottom: 0;
+}
+
+.inner-social .fab {
+  margin: 0 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.fab:hover {
+  filter: brightness(50%);
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #a9aacd;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #a9aacd;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #a9aacd;
+}
+
+@media screen and (max-width: 640px) {
+  .input-form {
+    flex-direction: column;
+  }
+
+  .input:first-child>input {
+    margin-bottom: 20px;
+  }
+
+  .form .input>input {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .address {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inner-address {
+    margin-bottom: 20px;
+  }
+
+  .social {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inner-social {
+    margin-bottom: 20px;
+  }
+}
