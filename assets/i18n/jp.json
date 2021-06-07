@@ -1,0 +1,77 @@
+{
+  "general": {
+    "add": "追加",
+    "cancel": "キャンセル",
+    "clear": "晴れ",
+    "delete": "削除",
+    "description": "説明",
+    "edit": "編集",
+    "save": "セーブ0",
+    "search": "探す",
+    "update": "更新"
+  },
+  "login": {
+    "title": "ログイン",
+    "userNameLabel": "ユーザー名",
+    "userNameError": "有効なユーザー名を入力してください",
+    "passwordLabel": "パスワード",
+    "passwordError": "有効なパスワードを入力してください",
+    "loginFormError": "無効なログイン資格情報",
+    "forgotPassword": "パスワードをお忘れですか"
+  },
+  "forgotPassword": {
+    "title": "パスワードを再設定する",
+    "description": "メールアドレスを入力してください。アカウントに戻るためのリンクをお送りします。",
+    "emailLabel": "Eメール",
+    "emailError": "有効なメールアドレスを入力してください",
+    "forgotPasswordFormError": "このメールではアカウントが見つかりません",
+    "buttonLabel":"ログインリンクを送信",
+    "back":"ログインに戻る"
+  },
+  "menu": {
+    "setup": "セットアップ",
+    "transactions": "取引",
+    "transactionsReceipt": "領収書",
+    "routine": "ルーチン",
+    "dashboard": "ダッシュボード",
+    "query": "クエリ",
+    "notifications": "通知",
+    "settings": "設定",
+    "logout": "ログアウト"
+  },
+  "transactions":{
+    "title": "取引",
+    "receipt": {
+      "pageTitle": "取引領収書",
+      "whLabel" : "WH",
+      "whError" : "有効なWHを入力してください",
+      "ownerLabel" : "オーナー",
+      "ownerError" : "有効な所有者を入力してください",
+      "grnLabel" : "GRN",
+      "grnError" : "有効な GRN を入力してください",
+      "addDateLabel" : "日付",
+      "addDateError" : "有効な日付を入力してください",
+      "refNoLabel" : "整理番号",
+      "refNoError" : "有効な参照番号を入力してください。",
+      "remarksLabel" : "備考",
+      "remarksError" : "有効なコメントを入力してください",
+      "addItemButtonLabel" : "アイテムを追加",
+      "labelButtonLabel" : "ラベル",
+      "grnrButtonLabel" : "GRN(R)",
+      "grnButtonLabel" : "GRN",
+      "tblHeaderItem" : "項目",
+      "tblHeaderSku" : "スク",
+      "tblHeaderQuantity" : "量",
+      "tblHeaderWeight" : "重量",
+      "tblHeaderVolume" : "ボリューム",
+      "tblHeaderManufactureDate" : "製造年月日",
+      "tblHeaderExpiry" : "有効期限",
+      "tblHeaderBatchNo" : "バッチ番号",
+      "tblHeaderRemarks" : "リマーク"
+    },
+    "addReceiptModal":{
+      "tblHeaderItem" : "項目",
+      "tblHeaderSKU" : "SKU"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.mat-header-cell{
+    background-color: var(--blue);
+    color: var(--white);
+    border-left: 1px solid var(--white);
+    padding-left: 20px !important;
+}
+
+.mat-cell{
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    padding-left: 20px !important;
+}
+
+tr.mat-header-row
+{
+    height: 45px !important;
+}
+
+tr.mat-row
+{
+    height: 40px !important;
+}
+
+tr.mat-footer-row {
+    height: 45px!important;
+}
+
+.mat-footer-cell{
+    padding-left: 20px !important;
+    font-weight: 500;
+}
+
+td.mat-cell > div > input{
+    border-bottom: 1px solid #e0e0e0 !important;
+    margin-bottom: 10px;
+    width: 88%;
+}
+
+td.mat-cell input{
+    border-bottom: 1px solid #e0e0e0 !important;
+    margin-bottom: 3px;
+    width: 88%;
+}

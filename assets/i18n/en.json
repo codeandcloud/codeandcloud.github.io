@@ -1,0 +1,77 @@
+{
+  "general": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "clear": "Clear",
+    "delete": "Delete",
+    "description": "Description",
+    "edit": "Edit",
+    "save": "Save",
+    "search": "Search",
+    "update": "Update"
+  },
+  "login": {
+    "title": "Login",
+    "userNameLabel": "User Name",
+    "userNameError": "Please provide a valid username",
+    "passwordLabel": "Password",
+    "passwordError": "Please provide a valid password",
+    "loginFormError": "Invalid Login Credentials",
+    "forgotPassword": "Forgot Password"
+  },
+  "forgotPassword": {
+    "title": "Reset Password",
+    "description": "Enter your email, we'll send you a link to get back into your account.",
+    "emailLabel": "Email",
+    "emailError": "Please provide a valid Email",
+    "forgotPasswordFormError": "No Account found with this Email",
+    "buttonLabel":"Send Login Link",
+    "back":"Back to Login"
+  },
+  "menu": {
+    "setup": "Setup",
+    "transactions": "Transactions",
+    "transactionsReceipt": "Receipt",
+    "routine": "Routine",
+    "dashboard": "Dashboard",
+    "query": "Query",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "transactions":{
+    "title": "Transactions",
+    "receipt": {
+      "pageTitle": "Transaction Receipt",
+      "whLabel" : "WH",
+      "whError" : "Please provide a valid WH",
+      "ownerLabel" : "Owner",
+      "ownerError" : "Please provide a valid Owner",
+      "grnLabel" : "GRN",
+      "grnError" : "Please provide a valid GRN",
+      "addDateLabel" : "Date",
+      "addDateError" : "Please provide a valid Date",
+      "refNoLabel" : "Ref No.",
+      "refNoError" : "Please provide a valid Ref No.",
+      "remarksLabel" : "Remarks",
+      "remarksError" : "Please provide a valid Remarks",
+      "addItemButtonLabel" : "Add Item",
+      "labelButtonLabel" : "Label",
+      "grnrButtonLabel" : "GRN(R)",
+      "grnButtonLabel" : "GRN",
+      "tblHeaderItem" : "Item",
+      "tblHeaderSku" : "SKU",
+      "tblHeaderQuantity" : "Quantity",
+      "tblHeaderWeight" : "Weight",
+      "tblHeaderVolume" : "Volume",
+      "tblHeaderManufactureDate" : "Mfg. Date",
+      "tblHeaderExpiry" : "Expiry",
+      "tblHeaderBatchNo" : "Batch No.",
+      "tblHeaderRemarks" : "Remark"
+    },
+    "addReceiptModal":{
+      "tblHeaderItem" : "Item",
+      "tblHeaderSKU" : "SKU"
+    }
+  }
+}
