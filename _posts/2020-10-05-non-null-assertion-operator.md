@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Non-null assertion operator in TypeScript
-date: '2020-07-18T12:05:00.000+05:30'
+date: '2020-10-05T12:05:00.000+05:30'
 author: Naveen
 categories: [typescript]
 tags: [typescript, operator]

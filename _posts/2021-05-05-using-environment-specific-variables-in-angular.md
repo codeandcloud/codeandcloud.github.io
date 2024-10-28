@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using environment specific variables in Angular
-date: "2021-07-07T05:05:00.000+05:30"
+date: "2021-05-05T05:05:00.000+05:30"
 author: Naveen
 categories: [angular]
 tags: [angular, environment, ng]

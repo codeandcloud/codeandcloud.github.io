@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Partials in TypeScript
-date: '2020-05-22T07:07:00.000+05:30'
+date: '2020-05-12T07:07:00.000+05:30'
 author: Naveen
 categories: [typescript]
 tags: [typescript, partial, constructor]

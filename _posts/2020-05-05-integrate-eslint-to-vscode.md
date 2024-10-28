@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Integrating ESLint to VS Code 
-date: '2020-07-07T12:05:00.000+05:30'
+date: '2020-05-05T12:05:00.000+05:30'
 author: Naveen
 categories: [vs-code]
 tags: [vs-code, es-lint, vscode-extensions]
