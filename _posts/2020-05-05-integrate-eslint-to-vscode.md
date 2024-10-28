@@ -5,7 +5,7 @@ date: '2020-07-07T12:05:00.000+05:30'
 author: Naveen
 categories: [vs-code]
 tags: [vs-code, es-lint, vscode-extensions]
-modified_time: '2020-07-07T12:05:00.000+05:30'
+modified_time: '2020-05-05T12:05:00.000+05:30'
 ---
 
 Steps on how to [integrate ESLint on VS Code][1]

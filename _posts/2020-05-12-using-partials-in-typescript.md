@@ -5,7 +5,7 @@ date: '2020-05-22T07:07:00.000+05:30'
 author: Naveen
 categories: [typescript]
 tags: [typescript, partial, constructor]
-modified_time: '2020-05-22T07:07:00.000+05:30'
+modified_time: '2020-05-12T07:07:00.000+05:30'
 ---
 
 `Partial<T>` is one of the several utility types available globally in TypeScript.

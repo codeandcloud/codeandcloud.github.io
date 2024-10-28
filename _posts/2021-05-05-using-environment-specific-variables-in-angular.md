@@ -5,7 +5,7 @@ date: "2021-07-07T05:05:00.000+05:30"
 author: Naveen
 categories: [angular]
 tags: [angular, environment, ng]
-modified_time: "2021-07-07T05:05:00.000+05:30"
+modified_time: "2021-05-05T05:05:00.000+05:30"
 ---
 
 Using _environment-specific_ variables in angular, the right way!
