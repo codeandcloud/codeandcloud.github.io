@@ -1,8 +1,8 @@
 ---
 layout: post
+author: Naveen
 title: Non-null assertion operator in TypeScript
 date: '2020-10-05T12:05:00.000+05:30'
-author: Naveen
 categories: [typescript]
 tags: [typescript, operator]
 modified_time: '2020-10-05T12:05:00.000+05:30'
@@ -19,7 +19,7 @@ Now let us look at a use case. Suppose we have `document.getElementById('post')`
 
 Look at how we do that in code. Suppose we have a `class` *Blog* with signature `Blog(HtmlElement, object)` and we write
 
-```typescript
+```ts
 let postEl: HTMLElement = document.getElementById('post');
 
 let post = new Blog(postEl, {
@@ -36,7 +36,8 @@ We will get the error,
 The error message tells us that the compiler could not determine the `type`.
 
 This is *where* the non-null assertion operator comes in handy. By changing the first line like
-```typescript
+
+```ts
 let postEl: HTMLElement = document.getElementById('post')!;
 ```
 the error goes away and the code gets compiled.

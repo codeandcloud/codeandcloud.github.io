@@ -1,8 +1,8 @@
 ---
 layout: post
+author: Naveen
 title: Using Partials in TypeScript
 date: '2020-05-12T07:07:00.000+05:30'
-author: Naveen
 categories: [typescript]
 tags: [typescript, partial, constructor]
 modified_time: '2020-05-12T07:07:00.000+05:30'
@@ -23,7 +23,7 @@ Two common areas of application are
 
 Suppose we have an `interface` Todo
 
-```typescript
+```ts
 interface Employee {
     id: number;
     name: string;
@@ -33,13 +33,14 @@ interface Employee {
 ```
 and a function `updateEmployee` to update any or all of the employee details 
 
-```typescript
+```ts
 updateEmployee(employee: Employee, fieldsToUpdate: Partial<Employee>) => {
     return { ...employee, ...fieldsToUpdate };
 }
 ```
-Now we can update employee like
-```typescript
+Now we can update employee like,
+
+```ts
 const developer = {
     id: 1,
     name: 'Naveen',
@@ -59,7 +60,7 @@ Thus we updated 3 properties and omitted one, ensuring type-safety in the above 
 
 We can also handle constructor overloading by using `Partial<T>`.
 
-```typescript
+```ts
 class FruitEmployee implements Employee {
     this.id: 1;
     this.name: 'Naveen';
@@ -71,8 +72,9 @@ class FruitEmployee implements Employee {
     }
 }
 ```
-Now we can call it like this
-```typescript
+Now we can call it like this,
+
+```ts
 const naveen = new FruitEmployee();
 const rehna = new FruitEmployee({
     id: 2,
@@ -83,7 +85,8 @@ const rehna = new FruitEmployee({
 ```
 `Partial<T>` used like this can save a many lines of code, ensuring type-safety.
 If [browser doesn't support](https://caniuse.com/#search=Object.assign) `Object.assign`, use
-```typescript
+
+```ts
 import { assign } from 'lodash';
 assign(this, obj);
 ```

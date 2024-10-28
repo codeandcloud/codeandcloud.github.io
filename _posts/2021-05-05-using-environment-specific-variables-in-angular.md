@@ -1,8 +1,8 @@
 ---
 layout: post
+author: Naveen
 title: Using environment specific variables in Angular
 date: "2021-05-05T05:05:00.000+05:30"
-author: Naveen
 categories: [angular]
 tags: [angular, environment, ng]
 modified_time: "2021-05-05T05:05:00.000+05:30"
@@ -25,7 +25,7 @@ Lets see how you can use environment variables to achieve that.
 
 First, create a 3 environment files like this for your angular project
 
-```
+```shell
 └── src
     └── app
         ├── app.component.html
@@ -43,7 +43,7 @@ Now add the api urls to your environment files:
 
 **environment.ts**
 
-```
+```ts
 export const environment = {
   production: false,
   apiUrl: 'http://my-local-api-url'
@@ -52,7 +52,7 @@ export const environment = {
 
 **environment.prod.ts**
 
-```
+```ts
 export const environment = {
   production: true,
   apiUrl: 'http://my-prod-api-url'
@@ -61,7 +61,7 @@ export const environment = {
 
 **environment.staging.ts**
 
-```
+```ts
 export const environment = {
   production: false,
   apiUrl: 'http://my-staging-api-url'
@@ -72,7 +72,7 @@ We will use that environment variable to get the `environment.apiUrl` for the se
 
 **api.service.ts**
 
-```
+```ts
 import { environment } from '../environments/environment';
 
 import { Injectable } from '@angular/core';
@@ -99,7 +99,7 @@ As expected, the service will use the file `environment.ts`.
 
 To change confuguration options matching the target environment we need to [configure target-specific file replacements in angular.json][1]. For this, we add `fileReplacements` to the `angular.json`.
 
-```
+```json
 "configurations": {
   "production": {
     "fileReplacements": [
@@ -122,7 +122,7 @@ To change confuguration options matching the target environment we need to [conf
 
 Now, we are all set to build according to different environments
 
-```
+```shell
 ng build --configuration=production // production
 ng build --configuration=staging // staging
 ```

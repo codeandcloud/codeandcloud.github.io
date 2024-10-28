@@ -1,8 +1,8 @@
 ---
 layout: post
+author: Naveen
 title: Integrating ESLint to VS Code 
 date: '2020-05-05T12:05:00.000+05:30'
-author: Naveen
 categories: [vs-code]
 tags: [vs-code, es-lint, vscode-extensions]
 modified_time: '2020-05-05T12:05:00.000+05:30'
@@ -17,12 +17,12 @@ After installation you will have a view like this
 
 Now we will open the terminal and as I am doing a `workspace` install, we will install it as
 
-```terminal
+```shell
 npm install eslint
 ```
 for a global install, please append ` -g` to the command. Next step will be to initialize the linter
 
-```terminal
+```shell
 eslint --init
 ```
 The config will ask you these question during this init phase.
