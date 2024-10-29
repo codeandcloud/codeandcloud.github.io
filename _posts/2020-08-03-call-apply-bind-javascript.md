@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Naveen
-title: Introduction to call, apply, bind in JavaScript 
+title: Introduction to call, apply, bind
 date: '2020-08-03T11:010:00.000+05:30'
 categories: [javascript]
 tags: [javascript]
