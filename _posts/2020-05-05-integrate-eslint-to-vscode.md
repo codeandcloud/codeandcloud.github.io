@@ -74,6 +74,6 @@ That's all to the installations folks. Happy coding
 
 [1]: https://eslint.org/
 [2]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[3]: /assets/img/posts/eslint-2020-07-07.png
+[3]: /assets/posts/2020-05/eslint.png
 [4]: https://eslint.org/docs/rules/
 

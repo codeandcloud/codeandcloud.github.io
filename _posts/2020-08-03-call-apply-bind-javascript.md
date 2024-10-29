@@ -3,8 +3,8 @@ layout: post
 author: Naveen
 title: Introduction to call, apply, bind in JavaScript 
 date: '2020-08-03T11:010:00.000+05:30'
-categories: [vs-code]
-tags: [vs-code, es-lint, vscode-extensions]
+categories: [javascript]
+tags: [javascript]
 modified_time: '2020-08-03T11:010:00.000+05:30'
 ---
 

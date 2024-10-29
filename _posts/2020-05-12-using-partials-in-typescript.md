@@ -4,7 +4,7 @@ author: Naveen
 title: Using Partials in TypeScript
 date: '2020-05-12T07:07:00.000+05:30'
 categories: [typescript]
-tags: [typescript, partial, constructor]
+tags: [typescript]
 modified_time: '2020-05-12T07:07:00.000+05:30'
 ---
 
