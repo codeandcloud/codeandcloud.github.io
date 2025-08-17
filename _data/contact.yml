@@ -19,13 +19,13 @@
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
-# - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/naveenchakiath/"
 #
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+- type: stack-overflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/17447/codeandcloud"
 #
 # - type: bluesky
 #   icon: 'fa-brands fa-bluesky'

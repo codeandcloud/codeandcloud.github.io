@@ -1,0 +1,6 @@
+/* User defined styles */
+.content a.popup + em {
+  text-align: right;
+  font-style: italic;
+  font-size: 0.7rem;
+}
