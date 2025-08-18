@@ -15,4 +15,4 @@ He also enjoys reading, playing chess, and walking.
 Skills: ```.NET``` ```C#``` ```Azure``` ```JavaScript``` ```TypeScript``` ```Angular``` ```JavaScript```
 
 
-[LinkedIn](https://www.linkedin.com/in/naveenchakiath/)  |  [Twitter](https://x.com/codeandcloudnet)  |  [Stack Overflow](https://stackoverflow.com/users17447/codeandcloud)
+[LinkedIn](https://www.linkedin.com/in/naveenchakiath/)  |  [GitHub](https://github.com/codeandcloud)  |  [Stack Overflow](https://stackoverflow.com/users17447/codeandcloud)

@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Naveen
+author: codeandcloud
 title: Non-null assertion operator in TypeScript
 date: '2020-10-05T12:05:00.000+05:30'
 categories: [typescript]

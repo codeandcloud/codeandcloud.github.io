@@ -8,7 +8,7 @@ timezone: Asia/Calcutta
 
 title: Code and Cloud
 
-tagline: .NET | C# | Azure | TypeScript | Angular
+tagline: .NET | Azure | TypeScript | Angular
 
 description: >-
   A technology blog that focuses on .NET stack, Azure, TypeScript and Angular.
@@ -19,13 +19,13 @@ github:
   username: codeandcloud
 
 twitter:
-  username: codeandcloudnet
+  username: codeandcloud_
 
 social:
   name: Naveen Jose
   email: naveen@codeand.cloud
   links:
-    - https://twitter.com/codeandcloudnet
+    - https://twitter.com/codeandcloud_
     - https://github.com/codeandcloud
     - https://www.facebook.com/codeandcloud
     - https://www.linkedin.com/in/naveen.chakiath

@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Naveen
+author: codeandcloud
 title: Using Partials in TypeScript
 date: '2020-05-12T07:07:00.000+05:30'
 categories: [typescript]

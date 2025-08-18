@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Naveen
+author: codeandcloud
 title: Introduction to Promises
 date: '2020-06-07T10:23:00.000+05:30'
 categories: [javascript]
