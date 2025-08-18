@@ -1,3 +1,7 @@
+.align-self-center {
+  align-self: center !important;
+}
+
 /* User defined styles */
 .content a.popup+em {
   text-align: right;
