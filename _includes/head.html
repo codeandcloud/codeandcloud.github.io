@@ -95,11 +95,12 @@
   {% if page.layout == 'page' or page.layout == 'post' %}
     <!-- Image Popup -->
     <link rel="stylesheet" href="{{ site.data.origin[type].glightbox.css | relative_url }}">
-    <link rel="stylesheet" href="/assets/css/app.css">
   {% endif %}
 
-  <!-- Scripts -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}">
 
+  <!-- Scripts -->
   <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}"></script>
 
   {% include js-selector.html lang=lang %}

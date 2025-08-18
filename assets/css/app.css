@@ -9,3 +9,13 @@
 #avatar {
   margin: 0 auto;
 }
+
+#sidebar .sidebar-bottom {
+  padding-left: 0;
+}
+
+@media (min-width: 1650px) {
+  #sidebar .sidebar-bottom {
+    padding-left: 0;
+  }
+}
