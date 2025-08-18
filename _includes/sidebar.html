@@ -13,7 +13,14 @@
     <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
-  <!-- .profile-wrapper -->
+
+  {% unless site.theme_mode %}
+    <div class="align-self-center mb-4">
+      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+        <i class="fas fa-adjust"></i>
+      </button>
+    </div>
+  {% endunless %}
 
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
@@ -36,20 +43,18 @@
         </li>
         <!-- .nav-item -->
       {% endfor %}
+      <li class="nav-item">
+        <a class="nav-link"
+          href="https://fun2code.blogspot.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Old Blog">
+          <i class="fa-brands fa-blogger"></i>
+          <span>OLD BLOG</span>
     </ul>
   </nav>
 
   <div class="sidebar-bottom d-flex flex-wrap align-items-center justify-content-center w-100">
-    {% unless site.theme_mode %}
-      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-        <i class="fas fa-adjust"></i>
-      </button>
-
-      {% if site.data.contact.size > 0 %}
-        <span class="icon-border"></span>
-      {% endif %}
-    {% endunless %}
-
     {% for entry in site.data.contact %}
       {% case entry.type %}
         {% when 'github', 'twitter' %}

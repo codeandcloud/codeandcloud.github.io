@@ -1,6 +1,11 @@
 /* User defined styles */
-.content a.popup + em {
+.content a.popup+em {
   text-align: right;
   font-style: italic;
   font-size: 0.7rem;
+}
+
+/* sidebar */
+#avatar {
+  margin: 0 auto;
 }
