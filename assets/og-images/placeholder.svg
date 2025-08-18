@@ -1,0 +1,64 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630' viewBox='0 0 1200 630' role='img' aria-labelledby='title desc'>
+  <title id='title'>Open Graph Image - Angular Environments</title>
+  <desc id='desc'>Pastel gradient background with abstract shapes, centered editable title text box, and codeand.cloud watermark.</desc>
+  <defs>
+    <linearGradient id='bg' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#E4F2FF'/>
+      <stop offset='50%' stop-color='#F0F5FF'/>
+      <stop offset='100%' stop-color='#E9F9F2'/>
+    </linearGradient>
+    <filter id='grain'>
+      <feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch' result='f'/>
+      <feColorMatrix in='f' type='saturate' values='0'/>
+      <feComponentTransfer>
+        <feFuncA type='linear' slope='0.04'/>
+      </feComponentTransfer>
+      <feBlend in2='SourceGraphic' mode='soft-light'/>
+    </filter>
+    <linearGradient id='blobGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#B7DCF6'/>
+      <stop offset='100%' stop-color='#CFE9FF'/>
+    </linearGradient>
+    <linearGradient id='blobGrad2' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#C1F0E2'/>
+      <stop offset='100%' stop-color='#D9F7EE'/>
+    </linearGradient>
+    <clipPath id='safeArea'>
+      <rect x='80' y='60' width='1040' height='510' rx='24'/>
+    </clipPath>
+    <style>
+      .title-box { font:700 72px/1.15 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,sans-serif; fill:#204060; }
+      .subtitle { font:500 28px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,sans-serif; fill:#386080; letter-spacing:.5px; }
+      .watermark { font:500 20px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace; fill:#3a5568; opacity:.18; }
+      .label { font:500 18px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace; fill:#417090; }
+    </style>
+  </defs>
+  <rect width='1200' height='630' fill='url(#bg)'/>
+  <g opacity='0.55'>
+    <circle cx='180' cy='140' r='160' fill='url(#blobGrad)'/>
+    <circle cx='1040' cy='520' r='170' fill='url(#blobGrad2)'/>
+    <circle cx='980' cy='140' r='110' fill='url(#blobGrad)' opacity='0.6'/>
+    <circle cx='300' cy='520' r='130' fill='url(#blobGrad2)' opacity='0.7'/>
+  </g>
+  <g opacity='0.25' fill='#6BB1E3'>
+    <path d='M350 90h40l-60 180h-40z'/>
+    <path d='M890 420h40l-60 120h-40z'/>
+  </g>
+  <g clip-path='url(#safeArea)'>
+    <g stroke='#8BB8D6' stroke-width='1' opacity='0.25'>
+      <line x1='80' y1='315' x2='1120' y2='315'/>
+      <line x1='600' y1='60' x2='600' y2='570'/>
+    </g>
+  </g>
+  <g id='editable-text' text-anchor='middle'>
+    <rect x='160' y='170' width='880' height='260' rx='28' fill='white' opacity='0.0' stroke='#9EC9E6' stroke-dasharray='12 10' stroke-width='2'/>
+    <text x='600' y='330' class='title-box'>Replace This Title</text>
+    <text x='600' y='395' class='subtitle'>Optional subtitle goes here</text>
+  </g>
+ <text x='1180' y='612' class='watermark' text-anchor='end'>codeand.cloud</text>
+  <g transform='translate(600 460)' text-anchor='middle'>
+    <rect x='-110' y='-34' width='220' height='68' rx='34' fill='#ffffff' opacity='0.55'/>
+    <text class='label' dominant-baseline='middle' x='0' y='4'>angular, dotnet</text>
+  </g>
+  <rect width='1200' height='630' fill='transparent' filter='url(#grain)'/>
+</svg>

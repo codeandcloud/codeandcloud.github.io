@@ -5,7 +5,7 @@ title: Integrating ESLint to VS Code
 date: '2020-05-05T12:05:00.000+05:30'
 categories: [vs-code]
 tags: [vs-code, es-lint, vscode-extensions]
-modified_time: '2020-05-05T12:05:00.000+05:30'
+image: /assets/og-images/2020-05-05-integrate-eslint-to-vscode.jpg
 ---
 
 Steps on how to [integrate ESLint on VS Code][1]
@@ -74,6 +74,6 @@ That's all to the installations folks. Happy coding
 
 [1]: https://eslint.org/
 [2]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[3]: /assets/posts/2020-05/eslint.png
+[3]: /assets/post-images/2020-05/eslint.png
 [4]: https://eslint.org/docs/rules/
 

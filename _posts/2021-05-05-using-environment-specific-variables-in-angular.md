@@ -6,6 +6,7 @@ date: "2021-05-05 05:05:00 +0530"
 categories: [angular]
 tags: [angular, environment, ng]
 last_modified_at: "2025-08-18 05:05:00 +0530"
+image: /assets/og-images/2021-05-05-using-environment-specific-variables-in-angular.jpg
 ---
 
 Using _environment-specific_ variables in angular, the right way!

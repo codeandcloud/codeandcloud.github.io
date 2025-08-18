@@ -5,7 +5,7 @@ title: Non-null assertion operator in TypeScript
 date: '2020-10-05T12:05:00.000+05:30'
 categories: [typescript]
 tags: [typescript, operator]
-modified_time: '2020-10-05T12:05:00.000+05:30'
+image: /assets/og-images/2020-10-05-non-null-assertion-operator.jpg
 ---
 
 Have you seen something like `node!.parent` and ever wondered what the `post-fix expression !` is doing in the typescript code? That is the [non-null assertion operator][1] introduced in *TypeScript 2.0*. As the typescript documentation notes,

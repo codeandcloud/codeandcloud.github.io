@@ -5,7 +5,7 @@ title: Using Partials in TypeScript
 date: '2020-05-12T07:07:00.000+05:30'
 categories: [typescript]
 tags: [typescript]
-modified_time: '2020-05-12T07:07:00.000+05:30'
+image: /assets/og-images/2020-05-12-using-partials-in-typescript.jpg
 ---
 
 `Partial<T>` is one of the several utility types available globally in TypeScript.

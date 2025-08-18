@@ -5,7 +5,7 @@ title: Introduction to Promises
 date: '2020-06-07T10:23:00.000+05:30'
 categories: [javascript]
 tags: [javascript]
-modified_time: '2020-06-07T10:23:00.000+05:30'
+image: /assets/og-images/2020-06-07-promises-in-javascript.jpg
 ---
 
 ### Promises: A brief introduction
@@ -18,7 +18,7 @@ modified_time: '2020-06-07T10:23:00.000+05:30'
 > - fulfilled: meaning that the operation was completed successfully.
 > - rejected: meaning that the operation failed.
 
-![Promise Diagram from MDN](/assets/posts/2020-06/promises.png)
+![Promise Diagram from MDN](/assets/post-images/2020-06/promises.png)
 *Image by [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). Used under Creative Commons license.*
 
 A simple, pratical example will be 
