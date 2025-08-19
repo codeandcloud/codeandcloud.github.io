@@ -3,7 +3,7 @@ layout: post
 author: codeandcloud
 title: Using Partials in TypeScript
 date: '2020-05-12T07:07:00.000+05:30'
-categories: [typescript]
+categories: [TypeScript]
 tags: [typescript]
 image: /assets/og-images/2020-05-12-using-partials-in-typescript.jpg
 ---

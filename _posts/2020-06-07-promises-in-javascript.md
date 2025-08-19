@@ -3,7 +3,7 @@ layout: post
 author: codeandcloud
 title: Introduction to Promises
 date: '2020-06-07T10:23:00.000+05:30'
-categories: [javascript]
+categories: [JavaScript]
 tags: [javascript]
 image: /assets/og-images/2020-06-07-promises-in-javascript.jpg
 ---

@@ -3,7 +3,7 @@ layout: post
 author: codeandcloud
 title: Non-null assertion operator in TypeScript
 date: '2020-10-05T12:05:00.000+05:30'
-categories: [typescript]
+categories: [TypeScript]
 tags: [typescript, operator]
 image: /assets/og-images/2020-10-05-non-null-assertion-operator.jpg
 ---

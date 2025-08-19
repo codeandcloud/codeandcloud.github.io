@@ -3,7 +3,7 @@ layout: post
 author: codeandcloud
 title: Integrating ESLint to VS Code 
 date: '2020-05-05T12:05:00.000+05:30'
-categories: [vs-code]
+categories: [VS-Code]
 tags: [vscode, eslint, vscode-extensions]
 image: /assets/og-images/2020-05-05-integrate-eslint-to-vscode.jpg
 ---
