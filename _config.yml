@@ -13,7 +13,7 @@ tagline: .NET | Azure | TypeScript | Angular
 description: >-
   A technology blog that focuses on .NET stack, Azure, TypeScript and Angular.
 
-url: "https://codeandcloud.github.io"
+url: "https://codeand.cloud"
 
 github:
   username: codeandcloud
@@ -88,7 +88,7 @@ avatar: assets/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: /assets/og-images/code-and-cloud.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
