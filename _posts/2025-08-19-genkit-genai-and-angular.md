@@ -8,13 +8,15 @@ tags: [angular, genai, genkit]
 image: /assets/og-images/2025-08-19-exploring-genkit-genai-in-angular.jpg
 ---
 
-The post is about building a basic application that uses Genkit Flows, Angular and Gemini 2.0 Flash. 
+The post is about building a basic application that uses Genkit Flows, Angular and Gemini 2.0 Flash.
 
-Let's create a full-stack Angular application with AI features.
+We are creating a fun app that suggests the user a car based on the their personality.
 
-> Following [Use Genkit in an Angular app](https://genkit.dev/docs/angular/)  _(loosely)_ because I encountered errors building the app using the tutorial
+> Following [Use Genkit in an Angular app](https://genkit.dev/docs/angular/) tutorial _(loosely)_ because I encountered errors building the app using the tutorial.
 
-## Installation
+## Introduction
+
+Let's start creating a full-stack Angular application with AI features.
 
 Install the Genkit CLI globally. This is an optional dependency but I recommend it anyway
 
@@ -232,7 +234,6 @@ In your frontend code, you can now call your flows using the Genkit client libra
 
 ### Non-streaming Flow Calls
 
-
 ```html
 <main>
   <section class="prompt-section">
@@ -395,6 +396,6 @@ export GEMINI_API_KEY=<your API key>
 ```
 ![Final Screen](/assets/post-images/2025-08-22/screen-2.jpg)
 
-*Please note that you will have to again set the environment variable when you restart the session, for a permanent setup, please add your key to environment variable.*
+*Please note that you will have to again set the environment variable when you restart the session. For a more permanent solution, please add your key to environment variable.*
 
 Source Code: [ng-genkit-car-suggestor](https://github.com/codeandcloud/ng-genkit-car-suggestor)
