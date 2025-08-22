@@ -397,4 +397,4 @@ export GEMINI_API_KEY=<your API key>
 
 *Please note that you will have to again set the environment variable when you restart the session, for a permanent setup, please add your key to environment variable.*
 
-That's all to it. Happy Coding!
+Source Code: [ng-genkit-car-suggestor](https://github.com/codeandcloud/ng-genkit-car-suggestor)
