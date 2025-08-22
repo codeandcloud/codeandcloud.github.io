@@ -2,7 +2,7 @@
 layout: post
 author: codeandcloud
 title: Exploring Genkit GenAI in Angular
-date: "2025-08-22 05:05:00 +0530"
+date: "2025-08-22 22:08:00 +0530"
 categories: [Angular, GenAI]
 tags: [angular, genai, genkit]
 image: /assets/og-images/2025-08-19-exploring-genkit-genai-in-angular.jpg
@@ -397,4 +397,4 @@ export GEMINI_API_KEY=<your API key>
 
 *Please note that you will have to again set the environment variable when you restart the session, for a permanent setup, please add your key to environment variable.*
 
-That's all to it: Happy Coding
+That's all to it. Happy Coding!
